@@ -30,8 +30,7 @@ focus_tree = {
 		
 		}
 		completion_reward = {
-		add_political_power = 50
-		add_war_support = 0.1
+		add_ideas = cartofelism
 		}
 	}
 
@@ -53,6 +52,11 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_research_slot = 1
+		add_tech_bonus = {
+   			 bonus = 0.5
+ 			 uses = 1
+  			 category = construction_tech
+			}
 		}
 	}
 

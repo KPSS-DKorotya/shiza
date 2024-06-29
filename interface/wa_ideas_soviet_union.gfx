@@ -1,0 +1,131 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_idea_trotskyite_plot_nsb"
+		texturefile = "gfx/interface/ideas/SOV_trotskyite_plot.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_trotskyite_plot_purged"
+		texturefile = "gfx/interface/ideas/SOV_trotskyite_plot_purged.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_desperate_measures_ns"
+		texturefile = "gfx/interface/ideas/SOV_desperate_measures.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_the_iron_wall_of_russian_resolve"
+		texturefile = "gfx/interface/ideas/SOV_the_iron_wall_of_russian_resolve.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_rehabilitated_military_ns"
+		texturefile = "gfx/interface/ideas/SOV_rehabilitated_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_the_local_soviets_idea"
+		texturefile = "gfx/interface/ideas/SOV_the_local_soviets.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_smersh"
+		texturefile = "gfx/interface/ideas/SOV_smersh.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_smersh_no_lar"
+		texturefile = "gfx/interface/ideas/SOV_smersh.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_defense_industry_artillery_bonus"
+		texturefile = "gfx/interface/ideas/SOV_soviet_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_humanism"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_keep"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_keep_humanism"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_swap"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_swap_humanism"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_battle_priests"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_honest_serfdom_idea"
+		texturefile = "gfx/interface/ideas/SOV_honest_serfdom.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_consolidate_power"
+		texturefile = "gfx/interface/ideas/SOV_consolidate_power.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_restore_the_glory_of_the_motherland"
+		texturefile = "gfx/interface/ideas/SOV_restore_the_glory_of_the_motherland.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_rebuild_the_nation"
+		texturefile = "gfx/interface/ideas/SOV_rebuild_the_nation.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_restoration_and_development_idea"
+		texturefile = "gfx/interface/ideas/generic_construction_repair.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_romanov_reconstruction"
+		texturefile = "gfx/interface/ideas/SOV_romanov_reconstruction.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_rebuild_the_savior_cathedral"
+		texturefile = "gfx/interface/ideas/SOV_rebuild_the_savior_cathedral.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_our_slavic_commitments"
+		texturefile = "gfx/interface/ideas/SOV_our_slavic_commitments.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_national_brotherhood_idea"
+		texturefile = "gfx/interface/ideas/SOV_national_brotherhood.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_russian_corporate_state"
+		texturefile = "gfx/interface/ideas/SOV_russian_corporate_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_legacy_of_rome"
+		texturefile = "gfx/interface/ideas/SOV_legacy_of_rome.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_memories_of_1905_idea"
+		texturefile = "gfx/interface/ideas/SOV_memories_of_1905.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_siberian_lessons"
+		texturefile = "gfx/interface/ideas/SOV_siberian_lessons.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_modernize_the_far_eastern_fleet"
+		texturefile = "gfx/interface/ideas/generic_modernize_the_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_modernize_the_far_eastern_fleet_vanilla"
+		texturefile = "gfx/interface/ideas/generic_modernize_the_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_an_empire_in_the_pacific_idea"
+		texturefile = "gfx/interface/ideas/SOV_an_empire_in_the_pacific.dds"
+	}
+}

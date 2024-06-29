@@ -1,0 +1,30 @@
+state = {
+	id = 296
+	name = "STATE_296"
+	manpower = 364900
+	state_category = enclave
+	resources = {
+		rubber = 1
+	}
+	history = {
+		owner = VGN
+		add_core_of = GNB
+		add_core_of = VGN
+		victory_points = {
+			12891 1
+		}
+		buildings = {
+			infrastructure = 4
+                        air_base = 5
+			12891 ={
+				naval_base = 5
+			}
+		}
+		controller = VGN
+	}
+	provinces = {
+		12747 12891 
+	}
+	local_supplies = 0.0
+
+}

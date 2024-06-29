@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - Злой Лукошенко
+zloylukoshenko = {
+	name = zloylukoshenko
+	portraits = {
+		civilian = {
+			#Custom image for Злой Лукошенко
+			large = "/gfx/leaders/KBR/etKgqhQG-534693.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Картофельный Лукошенко
+kartofelnyylukoshenko = {
+	name = kartofelnyylukoshenko
+	portraits = {
+		civilian = {
+			#Custom image for Картофельный Лукошенко
+			large = "/gfx/leaders/KBR/dgnISFoD-534688.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Ленинфель
+leninfel = {
+	name = leninfel
+	portraits = {
+		civilian = {
+			#Custom image for Ленинфель
+			large = "/gfx/leaders/KBR/tefBNCgm-534690.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Лукошенко
+lukoshenko = {
+	name = lukoshenko
+	portraits = {
+		civilian = {
+			#Custom image for Лукошенко
+			large = "/gfx/leaders/KBR/ehrXpUwE-534681.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+}

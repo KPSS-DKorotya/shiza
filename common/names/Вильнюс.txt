@@ -1,0 +1,18 @@
+VIL = {
+	male = {
+		names = {
+			"" 
+		}
+	}
+	female = {
+		names = {
+			"" 
+		}
+	}
+	surnames = {
+		"" 
+	}
+	callsigns = {
+		"" 
+	}
+}

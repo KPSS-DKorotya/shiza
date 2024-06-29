@@ -1,0 +1,8 @@
+VIL_DIV_0_0 = {	name = "Белорусская Миротворческая дивизия"
+	for_countries = { VIL }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Белорусская Миротворческая дивизия"
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 662
+	name = "STATE_662"
+	manpower = 13213
+	state_category = wasteland
+	history = {
+		owner = VGN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+		add_core_of = VGN
+		controller = VGN
+	}
+	provinces = {
+		4200 7076 7136 8069 13073 
+	}
+	local_supplies = 0.0
+
+}

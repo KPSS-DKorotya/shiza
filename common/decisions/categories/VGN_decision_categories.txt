@@ -1,0 +1,413 @@
+################
+##### CFG ######
+################
+restore_russia_category = {
+	restore_russia_country = {
+
+		icon = generic_form_nation
+		picture = GFX_decision_commFrance
+		priority = 100
+		
+		allowed = {
+				original_tag = VGN
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				controls_state = 219
+				controls_state = 231 
+				controls_state = 826  
+				controls_state = 827  
+				controls_state = 828  
+				controls_state = 233  
+				controls_state = 234  
+				controls_state = 235  
+				controls_state = 137  
+				controls_state = 238  
+				controls_state = 218  
+				controls_state = 237  
+				controls_state = 236  
+				controls_state = 217  
+				controls_state = 245  
+				controls_state = 228  
+				controls_state = 255  
+				controls_state = 254  
+				controls_state = 257  
+				controls_state = 240  
+				controls_state = 260  
+				controls_state = 239  
+				controls_state = 265  
+				controls_state = 829  
+				controls_state = 401  
+				controls_state = 250  
+				controls_state = 256  
+				controls_state = 252  
+				controls_state = 242  
+				controls_state = 248  
+				controls_state = 210  
+				controls_state = 209  
+				controls_state = 208  
+				controls_state = 195  
+				controls_state = 264  
+				controls_state = 247  
+				controls_state = 253  
+				controls_state = 400  
+				controls_state = 397  
+				controls_state = 262  
+				controls_state = 825  
+				controls_state = 214  
+				controls_state = 398  
+				controls_state = 651  
+				controls_state = 652  
+				controls_state = 213  
+				controls_state = 215  
+				controls_state = 216  
+				controls_state = 581  
+				controls_state = 244  
+				controls_state = 246  
+				controls_state = 243  
+				controls_state = 224  
+				controls_state = 222  
+				controls_state = 220  
+				controls_state = 580  
+				controls_state = 653  
+				controls_state = 572  
+				controls_state = 403  
+				controls_state = 572  
+				controls_state = 570  
+				controls_state = 579  
+				controls_state = 572  
+				controls_state = 578  
+				controls_state = 516  
+				controls_state = 576  
+				controls_state = 568  
+				controls_state = 567  
+				controls_state = 556  
+				controls_state = 564  
+				controls_state = 563  
+				controls_state = 876  
+				controls_state = 574  
+				controls_state = 561  
+				controls_state = 657  
+				controls_state = 560  
+				controls_state = 562 
+				controls_state = 409 
+				controls_state = 251 
+				controls_state = 263
+				controls_state = 351 
+				controls_state = 879
+				controls_state = 880 
+				controls_state = 582 
+				controls_state = 572 
+				controls_state = 572
+				controls_state = 40 
+				controls_state = 654
+				controls_state = 569 
+				controls_state = 878
+				controls_state = 575 
+				controls_state = 565 
+				controls_state = 877 
+				controls_state = 408 
+				controls_state = 655 
+				controls_state = 874 
+				controls_state = 644 
+				controls_state = 822 
+				controls_state = 637 
+				controls_state = 566 
+				controls_state = 824 
+				controls_state = 577 
+				controls_state = 571 
+				controls_state = 573
+				controls_state = 227
+				controls_state = 200 
+				controls_state = 196
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = VGN_russian_vagner
+				219 = { add_core_of = ROOT }
+				231 = { add_core_of = ROOT }
+				826 = { add_core_of = ROOT }
+				827 = { add_core_of = ROOT }
+				828 = { add_core_of = ROOT }
+				233 = { add_core_of = ROOT }
+				234 = { add_core_of = ROOT }
+				235 = { add_core_of = ROOT }
+				137 = { add_core_of = ROOT }
+				238 = { add_core_of = ROOT }
+				218 = { add_core_of = ROOT }
+				237 = { add_core_of = ROOT }
+				236 = { add_core_of = ROOT }
+				217 = { add_core_of = ROOT }
+				245 = { add_core_of = ROOT }
+				228 = { add_core_of = ROOT }
+				255 = { add_core_of = ROOT }
+				254 = { add_core_of = ROOT }
+				257 = { add_core_of = ROOT }
+				240 = { add_core_of = ROOT }
+				260 = { add_core_of = ROOT }
+				239 = { add_core_of = ROOT }
+				265 = { add_core_of = ROOT }
+				829 = { add_core_of = ROOT }
+				401 = { add_core_of = ROOT }
+				250 = { add_core_of = ROOT }
+				256 = { add_core_of = ROOT }
+				252 = { add_core_of = ROOT }
+				242 = { add_core_of = ROOT }
+				248 = { add_core_of = ROOT }
+				210 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				208 = { add_core_of = ROOT }
+				195 = { add_core_of = ROOT }
+				264 = { add_core_of = ROOT }
+				247 = { add_core_of = ROOT }
+				253 = { add_core_of = ROOT }
+				400 = { add_core_of = ROOT }
+				397 = { add_core_of = ROOT }
+				262 = { add_core_of = ROOT }
+				825 = { add_core_of = ROOT }
+				214 = { add_core_of = ROOT }
+				398 = { add_core_of = ROOT }
+				651 = { add_core_of = ROOT }
+				652 = { add_core_of = ROOT }
+				213 = { add_core_of = ROOT }
+				215 = { add_core_of = ROOT }
+				216 = { add_core_of = ROOT }
+				#   = { add_core_of = ROOT }
+				581 = { add_core_of = ROOT }
+				244 = { add_core_of = ROOT }
+				246 = { add_core_of = ROOT }
+				243 = { add_core_of = ROOT }
+				224 = { add_core_of = ROOT }
+				222 = { add_core_of = ROOT }
+				220 = { add_core_of = ROOT }
+				580 = { add_core_of = ROOT }
+				653 = { add_core_of = ROOT }
+				572 = { add_core_of = ROOT }
+				403 = { add_core_of = ROOT }
+				572 = { add_core_of = ROOT }
+				570 = { add_core_of = ROOT }
+				579 = { add_core_of = ROOT }
+				572 = { add_core_of = ROOT }
+				578 = { add_core_of = ROOT }
+				516 = { add_core_of = ROOT }
+				576 = { add_core_of = ROOT }
+				568 = { add_core_of = ROOT }
+				567 = { add_core_of = ROOT }
+				556 = { add_core_of = ROOT }
+				564 = { add_core_of = ROOT }
+				563 = { add_core_of = ROOT }
+				876 = { add_core_of = ROOT }
+				574 = { add_core_of = ROOT }
+				561 = { add_core_of = ROOT }
+				657 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
+				562 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
+				251 = { add_core_of = ROOT }
+				263 = { add_core_of = ROOT }
+				351 = { add_core_of = ROOT }
+				879 = { add_core_of = ROOT }
+				880 = { add_core_of = ROOT }
+				582 = { add_core_of = ROOT }
+				572 = { add_core_of = ROOT }
+				572 = { add_core_of = ROOT }
+				40 = { add_core_of = ROOT }
+				654 = { add_core_of = ROOT }
+				569 = { add_core_of = ROOT }
+				878 = { add_core_of = ROOT }
+				575 = { add_core_of = ROOT }
+				565 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
+				408 = { add_core_of = ROOT }
+				655 = { add_core_of = ROOT }
+				874 = { add_core_of = ROOT }
+				644 = { add_core_of = ROOT }
+				822 = { add_core_of = ROOT }
+				637 = { add_core_of = ROOT }
+				566 = { add_core_of = ROOT }
+				824 = { add_core_of = ROOT }
+				577 = { add_core_of = ROOT }
+				571 = { add_core_of = ROOT }
+				573 = { add_core_of = ROOT }
+				227 = { add_core_of = ROOT }
+				200 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
+				set_capital = { state = 219 }
+				set_country_flag = VGN_russian_vagner
+				set_global_flag = VGN_russian_vagner
+		}
+		
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	restore_russia_empire = {
+
+		icon = generic_form_nation
+		picture = GFX_decision_commFrance
+		priority = 100
+		
+		allowed = {
+				original_tag = VGN
+		}
+		
+		fire_only_once = yes
+
+		available = {
+			is_subject = no
+				controls_state = 586
+				controls_state = 589 
+				controls_state = 588 
+				controls_state = 882
+				controls_state = 590 
+				controls_state = 881
+				controls_state = 404 
+				controls_state = 583 
+				controls_state = 402
+				controls_state = 587 
+				controls_state = 406 
+				controls_state = 407 
+				controls_state = 823
+				controls_state = 832 
+				controls_state = 584 
+				controls_state = 742 
+				controls_state = 830 
+				controls_state = 732 
+				controls_state = 405 
+				controls_state = 232
+				controls_state = 821 
+				controls_state = 229
+				controls_state = 230
+				controls_state = 226 
+				controls_state = 197 
+				controls_state = 193
+				controls_state = 834
+				controls_state = 203
+				controls_state = 198
+				controls_state = 192
+				controls_state = 259
+				controls_state = 221 
+				controls_state = 199
+				controls_state = 201 
+				controls_state = 202
+				controls_state = 241 
+				controls_state = 194 
+				controls_state = 204
+				controls_state = 206 
+				controls_state = 207
+				controls_state = 96
+				controls_state = 95
+				controls_state = 94 
+				controls_state = 93 
+				controls_state = 91 
+				controls_state = 89 
+				controls_state = 78 
+				controls_state = 80 
+				controls_state = 814 
+				controls_state = 11 
+				controls_state = 815
+				controls_state = 189 
+				controls_state = 188 
+				controls_state = 190 
+				controls_state = 809 
+				controls_state = 808
+				controls_state = 810 
+				controls_state = 12 
+				controls_state = 191 
+				controls_state = 13 
+				controls_state = 812 
+				controls_state = 811 
+				controls_state = 329
+				controls_state = 555 
+				controls_state = 537 
+				controls_state = 146
+				controls_state = 147 
+			
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = VGN_russian_empire
+				586 = { add_core_of = ROOT }
+				589 = { add_core_of = ROOT }
+				588 = { add_core_of = ROOT }
+				882 = { add_core_of = ROOT }
+				590 = { add_core_of = ROOT }
+				881 = { add_core_of = ROOT }
+				404 = { add_core_of = ROOT }
+				583 = { add_core_of = ROOT }
+				402 = { add_core_of = ROOT }
+				587 = { add_core_of = ROOT }
+				406 = { add_core_of = ROOT }
+				407 = { add_core_of = ROOT }
+				823 = { add_core_of = ROOT }
+				832 = { add_core_of = ROOT }
+				584 = { add_core_of = ROOT }
+				742 = { add_core_of = ROOT }
+				830 = { add_core_of = ROOT }
+				732 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
+				232 = { add_core_of = ROOT }
+				821 = { add_core_of = ROOT }
+				229 = { add_core_of = ROOT }
+				230 = { add_core_of = ROOT }
+				226 = { add_core_of = ROOT }
+				197 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+				834 = { add_core_of = ROOT }
+				203 = { add_core_of = ROOT }
+				198 = { add_core_of = ROOT }
+				192 = { add_core_of = ROOT }
+				259 = { add_core_of = ROOT }
+				221 = { add_core_of = ROOT }
+				199 = { add_core_of = ROOT }
+				201 = { add_core_of = ROOT }
+				202 = { add_core_of = ROOT }
+				241 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+				204 = { add_core_of = ROOT }
+				206 = { add_core_of = ROOT }
+				207 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+				95 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				91 = { add_core_of = ROOT }
+				89 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+				80 = { add_core_of = ROOT }
+				814 = { add_core_of = ROOT }
+				11 = { add_core_of = ROOT }
+				815 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+				809 = { add_core_of = ROOT }
+				808 = { add_core_of = ROOT }
+				810 = { add_core_of = ROOT }
+				12 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				812 = { add_core_of = ROOT }
+				811 = { add_core_of = ROOT }
+				329 = { add_core_of = ROOT }
+				555 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				146 = { add_core_of = ROOT }
+				147 = { add_core_of = ROOT }
+				set_global_flag = VGN_russian_empire
+				set_country_flag = VGN_russian_empire
+				
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+
+

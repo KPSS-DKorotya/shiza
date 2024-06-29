@@ -1,0 +1,7 @@
+CFG = "countries/Народно-Бургерная красная армия.txt"
+VIL = "countries/Вильнюс.txt"
+VGN = "countries/ЧВК Вагнер.txt"
+ARB = "countries/Великая Армения.txt"
+KBR = "countries/Беларусь.txt"
+VGN_russian_vagner = "countries/Россия Вагнера.txt"
+VGN_russian_empire = "countries/Российская Империя Вагнера.txt"

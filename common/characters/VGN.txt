@@ -1,0 +1,113 @@
+characters = {
+#Create country leader - ком Пригожин 
+komprigozhin = {
+	name = komprigozhin
+	portraits = {
+		civilian = {
+			#Custom image for ком Пригожин 
+			large = "/gfx/leaders/VGN/ZvmouYbE-534943.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Пригожин
+prigozhin = {
+	name = prigozhin
+	portraits = {
+		civilian = {
+			#Custom image for Пригожин
+			large = "/gfx/leaders/VGN/BRlsyLmi-534941.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Пригожин
+prigozhin_1 = {
+	name = prigozhin_1
+	portraits = {
+		civilian = {
+			#Custom image for Пригожин
+			large = "/gfx/leaders/VGN/NpBDEqyu-534942.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Евгений
+evgeniy = {
+	name = evgeniy
+	portraits = {
+		civilian = {
+			#Custom image for Евгений
+			large = "/gfx/leaders/VGN/IsKXPRdt-534940.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+Utkin = {
+	name = Utkin
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/VGN/Utkin.dds"
+		}
+		army = {
+			large = "/gfx/leaders/VGN/Utkin.dds"
+		}
+		
+	}
+	advisor = {
+		slot = army_chief
+		idea_token = "/gfx/leaders/VGN/Utkin.dds"
+		allowed = { 
+			original_tag = VGN
+			original_tag = VGN
+		}
+		traits = {  }
+		cost = 50
+		ai_will_do = {
+				factor = 1.000
+			}
+		}
+	field_marshal = {
+		traits = { war_hero }
+		skill = 5
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	advisor={
+			slot = army_chief
+			idea_token = "/gfx/leaders/VGN/Utkin.dds"
+			allowed = {
+				original_tag = VGN
+			}
+			cost = 100.000
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+	}
+}
+}

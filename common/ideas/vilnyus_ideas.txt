@@ -1,0 +1,53 @@
+ideas = {
+
+	country= {
+
+		KBR_Belarusian_peacekeeping_army_1936_ns = { #Only used for 1936 bookmark (dynamic modifiers don't show up there)
+			name = KBR_Belarusian_peacekeeping_army_modifier 
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.15
+				manpower = 51000
+				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.05
+				
+			}
+		}
+
+
+
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+}
+	tank_manufacturer = {
+}
+	naval_manufacturer = {
+}
+	aircraft_manufacturer = {
+}
+	materiel_manufacturer = {
+}
+	industrial_concern = {
+}
+	theorist = {
+}
+	army_chief = {
+}
+	navy_chief = {
+}
+	air_chief = {
+}
+	high_command = {
+}
+}

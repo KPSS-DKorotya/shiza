@@ -1,0 +1,52 @@
+﻿oob = "KBR_1936"
+capital = 206
+set_research_slots = 3
+set_stability = 0.9
+set_war_support = 0.2
+set_convoys = 0
+
+
+add_ideas = {
+	limited_conscription
+	low_economic_mobilisation
+}
+
+
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "KBR_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.7.27"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 75
+	fascism = 0
+	communism = 15
+	neutrality = 10
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+recruit_character = lukoshenko
+recruit_character = leninfel
+recruit_character = kartofelnyylukoshenko
+recruit_character = zloylukoshenko
+
+

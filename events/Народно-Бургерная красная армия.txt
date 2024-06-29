@@ -1,0 +1,199 @@
+﻿###########################
+# Франция Гарнье
+###########################
+
+add_namespace = comfra
+
+country_event = {
+	id = comfra.1
+	title = comfra.1.t
+	desc = comfra.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	fire_only_once = yes
+	trigger = {
+		CFG = {
+			OR = { 
+				controls_province = 11506
+				controls_province = 11518
+				controls_province = 1149
+				controls_province = 9523
+				controls_province = 9534
+				controls_province = 9561
+				controls_province = 6585
+			}
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+	option = { 
+		name = comfra.1.a
+		ai_chance = { 
+			factor = 25 
+		}
+		trigger = {
+		tag = CFG 
+		}
+		effect_tooltip = {
+			TAH = {
+				transfer_state = 635
+				transfer_state = 734
+			}
+		}
+		hidden_effect = {
+			TAH = {
+				transfer_state = 635
+				transfer_state = 734
+			}
+		} 
+	}
+	option = { 
+		name = france.1.b
+		
+	}
+}
+country_event = {
+	id = comfra.2
+	title = comfra.2.t
+	desc = comfra.2.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	trigger = { 
+		FRA = { 
+			NOT = {
+			controls_state = 785
+			controls_state = 14
+			controls_state = 15
+			controls_state = 16
+			controls_state = 17
+			controls_state = 18
+			controls_state = 19
+			controls_state = 20
+			controls_state = 21
+			controls_state = 21
+			controls_state = 22
+			controls_state = 23
+			controls_state = 24
+			controls_state = 25
+			controls_state = 26
+			controls_state = 27
+			controls_state = 28
+			controls_state = 29
+			controls_state = 30
+			controls_state = 31
+			controls_state = 32
+			controls_state = 33
+			controls_state = 851
+			controls_state = 806
+			controls_state = 780
+			controls_state = 735
+			}
+		}
+		CFG = { 
+			has_war = NO
+		}
+		
+	}
+	mean_time_to_happen = { 
+			days = 1
+		}
+	option = { 
+		name = comfra.2.a
+		trigger = { 
+			tag = CFG
+		}
+		effect_tooltip = {
+			COR = {
+				transfer_state = 1
+			}
+			FRA = {
+				transfer_state = 514
+				transfer_state = 665
+				transfer_state = 458
+				transfer_state = 460
+				transfer_state = 513
+				transfer_state = 459
+				transfer_state = 461
+				transfer_state = 462
+				transfer_state = 557
+				transfer_state = 272
+				transfer_state = 773
+				transfer_state = 539
+				transfer_state = 772
+				transfer_state = 706
+				transfer_state = 310
+				transfer_state = 713
+				transfer_state = 641	
+				transfer_state = 728	
+				transfer_state = 786
+				transfer_state = 268
+			}
+			ENG = {
+				transfer_state = 779
+				transfer_state = 777
+				transfer_state = 776
+				transfer_state = 553
+				transfer_state = 694
+			}
+			RAJ = {
+				transfer_state = 320
+			}
+			TUR = {
+				transfer_state = 799
+			}
+			VIN = {
+				transfer_state = 671
+				transfer_state = 286
+				transfer_state = 741
+				transfer_state = 670
+			}
+		}
+		hidden_effect = {
+			COR = {
+				transfer_state = 1
+			}
+			FRA = {
+				transfer_state = 514
+				transfer_state = 665
+				transfer_state = 458
+				transfer_state = 460
+				transfer_state = 513
+				transfer_state = 459
+				transfer_state = 461
+				transfer_state = 462
+				transfer_state = 557
+				transfer_state = 272
+				transfer_state = 773
+				transfer_state = 539
+				transfer_state = 772
+				transfer_state = 706
+				transfer_state = 310
+				transfer_state = 713
+				transfer_state = 641	
+				transfer_state = 728	
+				transfer_state = 786
+				transfer_state = 268
+			}
+			ENG = {
+				transfer_state = 779
+				transfer_state = 777
+				transfer_state = 776
+				transfer_state = 553
+				transfer_state = 694
+			}
+			RAJ = {
+				transfer_state = 320
+			}
+			TUR = {
+				transfer_state = 799
+			}
+			VIN = {
+				transfer_state = 671
+				transfer_state = 286
+				transfer_state = 741
+				transfer_state = 670
+			}
+		}
+	}
+}

@@ -1,0 +1,187 @@
+focus_tree = {
+	id = KBR_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KBR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 10 y = 2500 }
+
+	focus = { 
+	id = KBR_cartofelism
+		icon = 0
+		x = 0
+		y = 0
+		cost = 5
+
+		outwilled = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+		add_political_power = 50
+		add_war_support = 0.1
+		}
+	}
+
+	focus = { 
+	id = KBR_supertehnologitchnaya_bulba
+	prerequisite = { focus = KBR_cartofelism }
+		icon = 0
+		x = 0
+		y = 1
+		cost = 10
+
+		outwilled = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+		add_research_slot = 1
+		}
+	}
+
+	focus = { 
+	id = KBR_pora_sojat_bulbu
+	prerequisite = { focus = KBR_supertehnologitchnaya_bulba }
+		icon = 0
+		x = 0
+		y = 2
+		cost = 5
+
+		outwilled = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = { 
+	id = KBR_pokuchat_bulbu
+	prerequisite = { focus = KBR_pora_sojat_bulbu }
+		icon = 0
+		x = 0
+		y = 3
+		cost = 5
+
+		outwilled = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = { 
+	id = democrat_lukash
+	prerequisite = { focus = KBR_pokuchat_bulbu }
+		icon = 0
+		x = 0
+		y = 4
+		cost = 2
+
+		outwilled = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+			set_politics = {
+    				ruling_party = democratic
+    				elections_allowed = no
+
+			}
+			add_popularity = {
+ 			       ideology = democratic
+   			       popularity = 0.5
+			}
+		}
+	}
+
+	focus = { 
+	id = sloy_lukash
+	prerequisite = { focus = KBR_pokuchat_bulbu }
+		icon = 0
+		x = -3
+		y = 4
+		cost = 2
+
+		outwilled = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+			set_politics = {
+    				ruling_party = fascism
+    				elections_allowed = no
+
+			}
+			add_popularity = {
+ 			       ideology = fascism
+   			       popularity = 0.5
+			}
+		}
+	}
+
+	focus = { 
+	id = kartofelniy_lukash
+	prerequisite = { focus = KBR_pokuchat_bulbu }
+		icon = 0
+		x = 3
+		y = 4
+		cost = 2
+
+		outwilled = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+			set_politics = {
+    				ruling_party = neutrality
+    				elections_allowed = no
+
+			}
+			add_popularity = {
+ 			       ideology = neutrality
+   			       popularity = 0.5
+			}
+		}
+	}
+

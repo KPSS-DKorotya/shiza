@@ -1,0 +1,27 @@
+
+state={
+	id=970
+	name="STATE_970"
+	manpower = 550800
+	
+	state_category = city
+
+	history={
+		owner = CFG
+		victory_points = {
+			9472 50
+		}
+		buildings = {
+			infrastructure = 4
+		    arms_factory = 1
+		}
+		add_core_of = FRA
+        add_core_of = CFG
+	}
+
+	provinces={
+		9472 3560 5291 6545 3546 13011 11549 3447 3402 
+	}
+
+	local_supplies=0.0 
+}

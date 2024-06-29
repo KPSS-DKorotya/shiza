@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - Арбузмед I
+arbuzmedi = {
+	name = arbuzmedi
+	portraits = {
+		civilian = {
+			#Custom image for Арбузмед I
+			large = "/gfx/leaders/ARB/uLbmDklM-534673.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Троцкбуз
+trockbuz = {
+	name = trockbuz
+	portraits = {
+		civilian = {
+			#Custom image for Троцкбуз
+			large = "/gfx/leaders/ARB/ZxHPmkdj-534632.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Арбузный парламент
+arbuznyyparlament = {
+	name = arbuznyyparlament
+	portraits = {
+		civilian = {
+			#Custom image for Арбузный парламент
+			large = "/gfx/leaders/ARB/ErNuRDAy-534675.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Армен
+armen = {
+	name = armen
+	portraits = {
+		civilian = {
+			#Custom image for Армен
+			large = "/gfx/leaders/ARB/fdqKCxEZ-534624.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+}

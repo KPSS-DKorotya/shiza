@@ -1,0 +1,217 @@
+characters = {
+#Create country leader - Arthur le guide
+arthur_le_guide = {
+	name = arthur_le_guide
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/CFG/aNyKIkrt-352516.dds"
+		}
+	}
+	country_leader = {
+		expire = "2024.1.1"
+		ideology = fascism_ideology
+		traits = {  dictator dislikes_germany anti_communist }
+	}
+}
+
+#Create country leader - Garine
+Garnie = {
+	name = Garnie
+	portraits = {
+		civilian = {
+			#Custom image for Garnie
+			large = "/gfx/leaders/CFG/JEqHkghI-352519.dds"
+		}
+	}
+	country_leader = {
+		expire = "2024.12.25"
+		ideology = leninism
+		traits = { triumphant_revolutionary popular_figurehead2 proletariat_internationalist comintern_workhorse militant_socialist  }
+	}
+	field_marshal = {
+		traits = { war_hero }
+		skill = 8
+		attack_skill = 5
+		defense_skill = 5
+		planning_skill = 5
+		logistics_skill = 4
+	}
+}
+
+#Create country leader - Arthur 
+arthur_ = {
+	name = arthur_
+	portraits = {
+		civilian = {
+			#Custom image for Arthur 
+			large = "/gfx/leaders/CFG/FLGmdUME-352510.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+
+#Create country leader - Arthur 1er
+arthur_1er = {
+	name = arthur_1er
+	portraits = {
+		civilian = {
+			#Custom image for Arthur 1er
+			large = "/gfx/leaders/CFG/EkrIzplQ-352525.dds"
+		}
+	}
+	country_leader = {
+		expire = "1952.10.12"
+		ideology = despotism
+		traits = {  collaborator_king underage_monarch warrior_code warmonger inexperienced_imperialist inexperienced_monarch }
+	}
+}
+
+Frolov = {
+	name = Frolov
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/CFG/frolov.dds"
+		}
+		army = {
+			large = "/gfx/leaders/CFG/frolov.dds"
+		}
+		
+	}
+	advisor = {
+		slot = army_chief
+		idea_token = "/gfx/leaders/CFG/frolov.dds"
+		allowed = { 
+			original_tag = CFG 
+		}
+		traits = {  }
+		cost = 50
+		ai_will_do = {
+				factor = 1.000
+			}
+		}
+	field_marshal = {
+		traits = { war_hero }
+		skill = 6
+		attack_skill = 5
+		defense_skill = 5
+		planning_skill = 5
+		logistics_skill = 3
+	}
+	advisor={
+			slot = army_chief
+			idea_token = "/gfx/leaders/CFG/frolov.dds"
+			allowed = {
+				original_tag = CFG
+			}
+			cost = 100.000
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+	}
+}
+Vlad = {
+	name = Vlad
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/CFG/vlad.dds"
+		}
+		army = {
+			large = "/gfx/leaders/CFG/vlad.dds"
+		}
+		
+	}
+	advisor = {
+		slot = army_chief
+		idea_token = "/gfx/leaders/CFG/vlad.dds"
+		allowed = { 
+			original_tag = CFG 
+			original_tag = CFG 
+		}
+		traits = {  }
+		cost = 50
+		ai_will_do = {
+				factor = 1.000
+			}
+		}
+	field_marshal = {
+		traits = { war_hero }
+		skill = 6
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	advisor={
+			slot = army_chief
+			idea_token = "/gfx/leaders/CFG/vlad.dds"
+			allowed = {
+				original_tag = CFG
+			}
+			cost = 100.000
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+	}
+}
+
+Dmitry = {
+	name = Dmitry
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/CFG/Dmitry.dds"
+		}
+		army = {
+			large = "/gfx/leaders/CFG/Dmitry.dds"
+		}
+		
+	}
+	advisor = {
+		slot = army_chief
+		idea_token = "/gfx/leaders/CFG/Dmitry.dds"
+		allowed = { 
+			original_tag = CFG 
+		}
+		traits = {  }
+		cost = 50
+		ai_will_do = {
+				factor = 1.000
+			}
+		}
+	field_marshal = {
+		traits = { war_hero }
+		skill = 6
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	advisor={
+			cost = 150
+			
+			slot = theorist
+			idea_token = "/gfx/leaders/CFG/Dmitry.dds"
+			ledger = air
+			allowed = {
+				original_tag = CFG
+			}
+			
+			traits = {
+				assault_avaition
+			}
+		}
+}
+
+
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Казис Гриниус
+kazisgrinius = {
+	name = kazisgrinius
+	portraits = {
+		civilian = {
+			#Custom image for Казис Гриниус
+			large = "/gfx/leaders/VIL/Ipkiuefa-535958.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+}

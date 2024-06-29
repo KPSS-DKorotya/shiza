@@ -1,0 +1,14 @@
+
+
+VGN_russian_vagner = {
+	color = rgb { 12 27 85 }
+	color_ui = rgb { 12 27 85 }
+	
+}
+ 
+VGN_russian_empire = {
+	color = rgb { 7 54 24 }
+	color_ui = rgb { 7 54 24 }
+ 
+}
+

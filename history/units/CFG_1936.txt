@@ -1,0 +1,396 @@
+#Create units
+division_template = {
+	name = "Division d'Infanterie"		
+	division_names_group = CFG_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Пехота"		
+	division_names_group = CFG_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		light_armor = { x = 3 y = 0 }
+		light_armor = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
+	division_names_group = CFG_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
+		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	division_names_group = CFG_CAV_01
+	# Note: Transformed to DLC, DLM divisions, 1936-39 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 		# Division Légère Mécanique
+	division_names_group = CFG_MEC_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Бургерная тяжёлая дивизия" 	
+	division_names_group = CFG_MEC_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 0 y = 2 }		
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 1 y = 0 }		
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }		
+		light_armor = { x = 1 y = 3 }		
+		motorized = { x = 2 y = 0 }			
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	support = {
+		tank_recon = { x = 0 y = 0 }
+		
+	}
+}
+
+division_template = {
+	name = "Бургерная очень тяжёлая дивизия" 	
+	division_names_group = CFG_MEC_01
+
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }		
+		heavy_armor = { x = 0 y = 1 }		
+		heavy_armor = { x = 0 y = 2 }		
+		heavy_armor = { x = 0 y = 3 }
+		heavy_armor = { x = 1 y = 0 }		
+		heavy_armor = { x = 1 y = 1 }		
+		heavy_armor = { x = 1 y = 2 }		
+		heavy_armor = { x = 1 y = 3 }		
+		motorized = { x = 2 y = 0 }			
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	support = {
+		tank_recon = { x = 0 y = 0 }
+		
+	}
+}
+
+
+
+
+division_template = {
+	name = "Лохи"			# Represents: 2xRgt colonial forces and , usually with old equipment
+	division_names_group = CFG_COL_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+	
+	
+	
+
+#Spawn units
+units = {
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9472
+		division_template = "Division d'Infanterie Motorisée" 	
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 3402
+		division_template = "Бургерная тяжёлая дивизия" 	
+		start_experience_factor = 0.15
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 9472
+		division_template = "Бургерная тяжёлая дивизия" 	
+		start_experience_factor = 0.15
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 9472
+		division_template = "Бургерная тяжёлая дивизия" 	
+		start_experience_factor = 0.15
+	}
+	
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9472
+		division_template = "Бургерная тяжёлая дивизия" 	
+		start_experience_factor = 0.15
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9472
+		division_template = "Бургерная тяжёлая дивизия" 	
+		start_experience_factor = 0.15
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13011
+		division_template = "Division Légère Mécanique" 	
+		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "CFG" } }
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13011
+		division_template = "Бургерная тяжёлая дивизия" 	
+		start_experience_factor = 0.15
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "CFG" } }
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13011
+		division_template = "Бургерная тяжёлая дивизия" 	
+		start_experience_factor = 0.15
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "CFG" } }
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13011
+		division_template = "Division Légère Mécanique" 	
+		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "CFG" } }
+	}
+	division= {	
+		name = "Longuyon Div. d'Inf. de Forteresse"
+		location = 5291
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5291
+		division_template = "Division d'Infanterie"	 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6545
+		division_template = "Пехота"	 
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5291
+		division_template = "Пехота"	 
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13011
+		division_template = "Пехота"	 
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9472
+		division_template = "Пехота"	 
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6545
+		division_template = "Лохи"	 
+		start_experience_factor = 0.1
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 454
+		division_template = "Пехота" 	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11549
+		division_template = "Пехота" 	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 575
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11483
+		division_template = "Лохи" 
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9472
+		division_template = "Бургерная очень тяжёлая дивизия"  	
+		start_experience_factor = 0.1
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "CFG" } }
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9472
+		division_template = "Бургерная очень тяжёлая дивизия" 
+		start_experience_factor = 0.1
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "CFG" } }
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9472
+		division_template = "Бургерная очень тяжёлая дивизия"  	
+		start_experience_factor = 0.1
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "CFG" } }
+	}
+	
+}

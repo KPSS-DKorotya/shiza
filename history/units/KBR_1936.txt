@@ -1,0 +1,330 @@
+#Create units
+
+division_template = {
+	name = "Kavaleriyskaya Diviziya" 	# Cavalry Division
+	division_names_group = "KBR_DIV_0_1"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+ 		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Strelkovaya Diviziya"			
+	division_names_group = "KBR_DIV_0_0"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		
+	}
+}
+
+#Spawn units
+units = {
+
+	
+	division= {	# "31ya 'Stalingradskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 9288
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "61ya 'Turkestanskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 61
+		}
+		location = 9288
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "70ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = 9288
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "12ya NKVD Pogranichnaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9288
+		division_template = "Strelkovaya Diviziya"		
+		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}	
+
+
+	division= {	# "14ya 'Krivorozhskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 11241
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "52ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 11241
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "55ya 'Kurskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 11241
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}		
+	division= {	# "2ya 'Belorusskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3219
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}	
+	# 11ya Strelkoviy Korpus
+			
+	division= {	# "8ya 'Minskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6371
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "37ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 6220
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}		
+	# 3ya Kavaleriyskiy Korpus
+	division= {	# "7ya Kavaleriyskaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3267
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "11ya Kavaleriyskaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11216
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	# NKVD Belorusskiy Korpus -- NKVD Border Guard and RR units	
+	division= {	# "2ya NKVD Pogranichnaya Diviziya"		
+			division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+	location = 11370
+		division_template = "Kavaleriyskaya Diviziya"		# NKVD -- older equipment, training
+		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}	
+	division= {	# "24ya 'Samaro-Ulyanovsk' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 215
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "46ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 9554
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}		
+
+
+
+	division= {	# "46ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 406
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "46ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 277
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "46ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 11285
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "46ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 6579
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "46ya Strelkovaya Diviziya"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 11391
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	
+
+
+	division= {	# "2ya NKVD Pogranichnaya Diviziya"		
+			division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+	location = 3393
+		division_template = "Kavaleriyskaya Diviziya"		# NKVD -- older equipment, training
+		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}	
+	division= {	# "2ya NKVD Pogranichnaya Diviziya"		
+			division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+	location = 3393
+		division_template = "Kavaleriyskaya Diviziya"		# NKVD -- older equipment, training
+		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "2ya NKVD Pogranichnaya Diviziya"		
+			division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+	location = 9304
+		division_template = "Kavaleriyskaya Diviziya"		# NKVD -- older equipment, training
+		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}	
+	division= {	# "2ya NKVD Pogranichnaya Diviziya"		
+			division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+	location = 9341
+		division_template = "Kavaleriyskaya Diviziya"		# NKVD -- older equipment, training
+		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}	
+
+	
+
+	        
+	
+
+}

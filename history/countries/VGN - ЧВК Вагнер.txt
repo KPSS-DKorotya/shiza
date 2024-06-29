@@ -1,0 +1,62 @@
+﻿oob = "VGN_1936"
+capital = 556
+set_research_slots = 3
+set_stability = 0.9
+set_war_support = 1.0
+set_convoys = 200
+
+
+add_ideas = {
+	volunteer_only
+	war_economy
+	limited_exports
+	
+}
+
+
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "VGN_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.5.25"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+recruit_character = evgeniy
+recruit_character = prigozhin
+recruit_character = prigozhin
+recruit_character = komprigozhin
+recruit_character = Utkin
+
+
+send_embargo = ENG
+send_embargo = USA
+send_embargo = SOV
+send_embargo = FRA
+send_embargo = SPR
+send_embargo = POR
+

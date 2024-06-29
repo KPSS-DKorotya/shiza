@@ -1,0 +1,816 @@
+#Create units
+
+division_template = {
+	name = "Vagners Infanterie s"
+	division_names_group = "VGN_DIV_0_0"
+        
+        regiments = {
+		vagner = { x = 0 y = 0 }
+	        vagner = { x = 0 y = 1 }
+		vagner = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+                recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 } 
+	}
+}
+
+division_template = {
+	name = "Vagners Infanterie b"
+	division_names_group = "VGN_DIV_0_0"
+        
+        regiments = {
+		vagner = { x = 0 y = 0 }
+	        vagner = { x = 0 y = 1 }
+		vagner = { x = 0 y = 2 }
+		vagner = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+                recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 } 
+	}
+}
+
+division_template = {
+	name = "Recruited Syrians s"
+	division_names_group = "VGN_DIV_0_0"
+        
+        regiments = {
+		recruited = { x = 0 y = 0 }
+	        recruited = { x = 0 y = 1 }
+		recruited = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+                recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 } 
+	}
+}
+
+division_template = {
+	name = "Recruited Syrians b"
+	division_names_group = "VGN_DIV_0_0"
+        
+        regiments = {
+		recruited = { x = 0 y = 0 }
+	        recruited = { x = 0 y = 1 }
+		recruited = { x = 0 y = 2 }
+		recruited = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+                recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 } 
+	}
+}
+
+
+
+
+#Spawn units
+units = {
+    
+	#SUDAN
+	
+    division= {	
+		name = "1. Sudan's Vagner division"
+		location = 12806  
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Sudan's Vagner division"
+		location = 12806  
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Sudan's Vagner division"
+		location = 12806  
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Sudan's Vagner division"
+		location = 12725 
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "1. Chad's Vagner division"
+		location = 2081
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Chad's Vagner division"
+		location = 3123
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "1. Sudan's Recruited Syrians Vagner division"
+		location = 12806  
+		division_template = "Recruited Syrians s"
+		start_experience_factor = 1.0
+	}
+	
+	#Libya
+	
+	division= {	
+		name = "1. Libya's Vagner division"
+		location = 1149 
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Libya's Vagner division"
+		location = 1149 
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Libya's Vagner division"
+		location = 7066
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Libya's Vagner division"
+		location = 1198
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "5. Libya's Vagner division"
+		location = 4200
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "6. Libya's Vagner division"
+		location = 4200
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "7. Libya's Vagner division"
+		location = 7063
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "8. Libya's Vagner division"
+		location = 1062
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "9. Libya's Vagner division"
+		location = 4200
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "10. Libya's Vagner division"
+		location = 1130
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "11. Libya's Vagner division"
+		location = 7082
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "12. Libya's Vagner division"
+		location = 1062
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "13. Libya's Vagner division"
+		location = 12094
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	#Recruited Syrians b
+	division= {	
+		name = "1. Libya's Recruited Syrians Vagner division"
+		location = 4194
+		division_template = "Recruited Syrians s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Libya's Recruited Syrians Vagner division"
+		location = 7063
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Libya's Recruited Syrians Vagner division"
+		location = 7209
+		division_template = "Recruited Syrians s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Libya's Recruited Syrians Vagner division"
+		location = 7154
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "5. Libya's Recruited Syrians Vagner division"
+		location = 4060
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Буркино-Фасо
+	
+	
+	division= {	
+		name = "1. Burkino's Vagner division"
+		location = 10836
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Burkino's Vagner division"
+		location = 7950
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Burkino's Vagner division"
+		location = 7983 
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	#Mali
+	
+	division= {	
+		name = "1. Mali's Vagner division"
+		location = 4927 
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Mali's Vagner division"
+		location = 4927 
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Mali's Vagner division"
+		location = 4927 
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Mali's Vagner division"
+		location = 5045
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "5. Mali's Vagner division"
+		location = 4927 
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "6. Mali's Vagner division"
+		location = 12794
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "7. Mali's Vagner division"
+		location = 12794
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "8. Mali's Vagner division"
+		location = 2012
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "9. Mali's Vagner division"
+		location = 12751
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "12. Mali's Vagner division"
+		location = 10915
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "10. Mali's Vagner division"
+		location = 8116
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "11. Mali's Vagner division"
+		location = 10915
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Guinea
+	
+	division= {	
+		name = "1. Guinea's Vagner division"
+		location = 1909
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Guinea's Vagner division"
+		location = 12891
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Niger
+	
+	
+	division= {	
+		name = "1. Niger's Vagner division"
+		location = 12707
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Niger's Vagner division"
+		location = 8028
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Niger's Vagner division"
+		location = 10758
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Niger's Vagner division"
+		location = 10805
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "5. Niger's Vagner division"
+		location = 10780
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "6. Niger's Vagner division"
+		location = 2056
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	
+	
+	division= {	
+		name = "7. Niger's Vagner division"
+		location = 1975
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "8. Niger's Vagner division"
+		location = 7939
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "9. Niger's Vagner division"
+		location = 10917
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "10. Niger's Vagner division"
+		location = 1956
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "11. Niger's Vagner division"
+		location = 2056
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "11. Niger's Vagner division"
+		location = 10780
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "11. Niger's Vagner division"
+		location = 10917
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Somali
+	
+	division= {	
+		name = "1. Somali's Vagner division"
+		location = 10833
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Somali's Vagner division"
+		location = 12814
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Somali's Vagner division"
+		location = 1905
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "1. Somali's Recruited Syrians Vagner division"
+		location = 10921
+		division_template = "Recruited Syrians s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Somali's Recruited Syrians Vagner division"
+		location = 8094
+		division_template = "Recruited Syrians s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Modagascar
+	
+	
+	division= {	
+		name = "1. Modagascar's Vagner division"
+		location = 5222
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Modagascar's Vagner division"
+		location = 5222
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Mozambik
+	
+	
+	division= {	
+		name = "1. Mozambik's Vagner division"
+		location = 2123
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	#Zimbabwe
+	
+	division= {	
+		name = "1. Zimbabwe's Vagner division"
+		location = 10929
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Zimbabwe's Vagner division"
+		location = 2151
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Botstwana
+	
+	
+	division= {	
+		name = "1. Botstwana's Vagner division"
+		location = 1580
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Botstwana's Vagner division"
+		location = 8214
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Rwanda
+	
+	
+	division= {	
+		name = "1. Rwanda's Vagner division"
+		location = 9962
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#DRK
+	
+	
+	division= {	
+		name = "1. DRK's Vagner division"
+		location = 5117
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. DRK's Vagner division"
+		location = 7931
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. DRK's Vagner division"
+		location = 10968
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. DRK's Vagner division"
+		location = 191
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Angola
+	
+	
+	division= {	
+		name = "1. Angola's Vagner division"
+		location = 2115
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Angola's Vagner division"
+		location = 8248
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Angola's Vagner division"
+		location = 8248
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Angola's Vagner division"
+		location = 12391
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#CAR
+	
+	
+	division= {	
+		name = "1. CAR's Vagner division"
+		location = 11012
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. CAR's Vagner division"
+		location = 3165
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. CAR's Vagner division"
+		location = 12719
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Venezuela
+	
+	
+	division= {	
+		name = "1. Venezuela's Vagner division"
+		location = 1944
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Venezuela's Vagner division"
+		location = 8050
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Venezuela's Vagner division"
+		location = 10912
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Venezuela's Vagner division"
+		location = 10879
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "5. Venezuela's Vagner division"
+		location = 1981
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "6. Venezuela's Vagner division"
+		location = 12772
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	
+	
+	#Syria
+	
+	division= {	
+		name = "1. Syria's Vagner division"
+		location = 10087
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "2. Syria's Vagner division"
+		location = 1088
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "3. Syria's Vagner division"
+		location = 4111
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Syria's Vagner division"
+		location = 1074
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "5. Syria's Vagner division"
+		location = 4486
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "6. Syria's Vagner division"
+		location = 7184
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "7. Syria's Vagner division"
+		location = 10383
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "8. Syria's Vagner division"
+		location = 12316
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	
+	
+	
+	
+	division= {	
+		name = "9. Syria's Vagner division"
+		location = 7140
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "10. Syria's Vagner division"
+		location = 12473
+		division_template = "Vagners Infanterie s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "11. Syria's Vagner division"
+		location = 2013
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "12. Syria's Vagner division"
+		location = 901
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "13. Syria's Vagner division"
+		location = 10882 
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "14. Syria's Vagner division"
+		location = 1549
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "15. Syria's Vagner division"
+		location = 1074
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "16. Syria's Vagner division"
+		location = 4550
+		division_template = "Vagners Infanterie b"
+		start_experience_factor = 1.0
+	}
+	
+	#Recruited Syrians b
+	
+	division= {	
+		name = "2. Syria's Recruited Syrians Vagner division"
+		location = 6883
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "4. Syria's Recruited Syrians Vagner division"
+		location = 7671
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "5. Syria's Recruited Syrians Vagner division"
+		location = 1634
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "6. Syria's Recruited Syrians Vagner division"
+		location = 1578
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "7. Syria's Recruited Syrians Vagner division"
+		location = 4486
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "8. Syria's Recruited Syrians Vagner division"
+		location = 901
+		division_template = "Recruited Syrians b"
+		start_experience_factor = 1.0
+	}
+	
+	division= {	
+		name = "3. Syria's Recruited Syrians Vagner division"
+		location = 1549
+		division_template = "Recruited Syrians s"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "1. Syria's Recruited Syrians Vagner division"
+		location = 1056
+		division_template = "Recruited Syrians s"
+		start_experience_factor = 1.0
+	}
+	
+	
+	
+    

@@ -13,8 +13,11 @@ add_ideas = {
 	
 }
 
-
-
+add_ideas = {
+	heir_Russian_Empire
+	difficult_strukture_vagner
+	agrarny_prom
+}
 
 #For start date 1939.1.1
 1939.1.1 = {

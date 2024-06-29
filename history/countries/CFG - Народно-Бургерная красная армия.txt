@@ -13,8 +13,6 @@ add_ideas = {
 	tot_economic_mobilisation
 }
 
-add_dynamic_modifier = { modifier = first_plan_f_dynamic_modifier }
-
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_technology = {
@@ -737,3 +735,5 @@ add_ideas = {
 	ideas3
 	FRA_inefficient_economy_2
 }
+
+

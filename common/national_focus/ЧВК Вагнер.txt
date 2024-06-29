@@ -1,0 +1,159 @@
+focus_tree = {
+	id = VGN_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VGN
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 10 y = 2500 }
+
+	focus = {
+		id = VGN_help_ethiopia
+		icon = GFX_focus_ETH_empower_the_ras
+		x = 0
+		y = 0
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.01
+		}
+	}
+	focus = {
+		id = VGN_train_to_war
+		icon = GFX_focus_attack_italy
+		prerequisite = { focus = VGN_help_ethiopia }
+		x = 0
+		y = 1
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = VGN_attack_italia
+		icon = GFX_focus_ger_assassinate_mussolini
+		prerequisite = { focus = VGN_train_to_war }
+		x = 0
+		y = 2
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VGN_defence_ethiopia
+		icon = GFX_focus_ger_assassinate_mussolini
+		prerequisite = { focus = VGN_attack_italia }
+		x = 0
+		y = 3
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = VGN_integrate_new_territory
+		icon = GFX_focus_ger_assassinate_mussolini
+		prerequisite = { focus = VGN_defence_ethiopia }
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = VGN_african_prom
+		icon = GFX_focus_ger_assassinate_mussolini
+		prerequisite = { focus = VGN_attack_italia }
+		x = 10
+		y = 3
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		
+		}
+		completion_reward = {
+
+			add_stability = 0.01
+		}
+	}
+	focus = {
+		id = VGN_regulary_chvk
+		icon = GFX_focus_ger_assassinate_mussolini
+		prerequisite = { focus = VGN_attack_italia }
+		x = 16
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+
+			add_stability = 0.01
+		}
+	}
+	
+	
+
+
+	
+
+	
+}
